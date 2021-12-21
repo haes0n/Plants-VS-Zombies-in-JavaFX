@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="utility.MainMenuController">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@menuScreen.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="StartButton" layoutX="400.0" layoutY="82.0" mnemonicParsing="false" onAction="#startButtonClicked" onMouseEntered="#mouseOnButton" onMouseExited="#mouseLeaveButton" opacity="0.0" prefHeight="102.0" prefWidth="331.0" text="START" textAlignment="CENTER" />
+      <Button fx:id="QuitButton" layoutX="706.0" layoutY="453.0" mnemonicParsing="false" onAction="#quitButtonClicked" onMouseEntered="#mouseOnButton" onMouseExited="#mouseLeaveButton" opacity="0.0" prefHeight="92.0" prefWidth="74.0" text="QUIT" />
+   </children>
+</AnchorPane>
